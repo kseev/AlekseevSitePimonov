@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="main.css" />
+  <title>ORDER</title>
+</head>
+<body>
+   <a href="/index.html">
+   <header class="header2">
+    <img src="/pic/logo.png" alt="Логотип" class="logo" />
+    <span>B0BRbI</span>
+  </header>
+</a>
+<main class="order-main">
+  <div class="image-blockS">
+    <img src="./pic/SUDA.png" alt="SUDA">
+    </div>
+    <form class="order-form">        
+    <h2>ORDER</h2>
+    <input type="text" placeholder="Your name" required>
+    
+<select id="delivery" name="delivery" required class="order-form-select">
+  <option value="" enabled selected>Choose delivery</option>
+  <option value="cdek">CDEK</option>
+  <option value="pochta">Russian post</option>
+</select>
+
+    <div class="product-selection" required>
+  <label class="product-option">
+    <input type="radio" name="product" value="product1" required>
+    <img src="./pic/logo.png" alt="Product 1">
+  </label>
+  <label class="product-option">
+    <input type="radio" name="product" value="product2">
+    <img src="" alt="Product 2">
+  </label>
+  <label class="product-option">
+    <input type="radio" name="product" value="product3">
+    <img src="./pic/product3.png" alt="Product 3">
+  </label>
+</div>
+
+
+    <input type="email" placeholder="Email" required>
+
+    <input type="tel" name="phone" placeholder="+7 (XXX) XXX-XX-XX" required
+       pattern="^\+7\d{10}$"
+       title="The number must start with +7 and contain 11 characters." />
+    <button type="submit">Send</button>
+  </form>
+</main>
+
+
+  <footer>
+    <div class="footer-block">
+      <h3>For clients</h3>
+      <p>Q&A</p>
+      <p>Delivery</p>
+      <p>Place an order</p>
+    </div>
+    <div class="footer-block">
+      <h3>Contacts</h3>
+      <p>8 800 555 35 XX</p>
+      <p>Email: kirilca768@gmail.com</p>
+      <p>Yekaterinburg, 32 Mira street</p>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    © 2025 ALekseev, Pimonov. Everything on this site is humor and fiction (almost).
+  </div>
+  <script src="main.js" defer></script>
+</body>
+</html>
