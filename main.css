@@ -488,7 +488,8 @@
 
 .swag-slider-wrapper {
   position: relative;
-  width: 350px;
+  width: 100%;
+  box-sizing: border-box;
   height: 40px;
   border: 2px solid black;
   border-radius: 20px;
@@ -583,7 +584,7 @@
 
   /*для тапиков*/
 
-    @media (max-width: 733px) {
+    @media (max-width: 768px) {
 
     header {
       font-size: 3.5em !important; /* уменьшить шрифт шапки */
@@ -594,7 +595,54 @@
       font-size: 2.5em !important; /* уменьшить шрифт шапки */
       padding: 1px 20px !important;
     }
+.main-chel {
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 20px;
+    gap: 20px;
+  }
 
+  .side-image {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .order-formS {
+    width: 90%;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .swag-slider-wrapper {
+    width: 100%;
+  }
+
+  header, .header2 {
+    font-size: 2em;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-block {
+    margin: 10px 0;
+  }
+
+  .copyright {
+    font-size: 0.7em;
+    padding: 5px;
+  }
 
     .logo {
       width: 60px !important;
